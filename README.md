@@ -6,7 +6,7 @@ A standars based style guide for Python
 ## <a name='TOC'>Table of Contents</a>
 
   1. [Types](#types)
-  1. [Objects](#objects)
+  1. [Dictionary/Objects](#objects)
   1. [Arrays](#arrays)
   1. [Strings](#strings)
   1. [Functions](#functions)
@@ -25,6 +25,22 @@ A standars based style guide for Python
   1. [Testing](#testing)
   1. [Performance](#performance)
   1. [Resources](#resources)
+
+
+## <a name='objects'>Dictionary / Objects</a>
+Create a new Dictionary / Object
+```python
+bank = {
+    'money': 'US Dollar',
+    'amount': 200000
+}
+```
+
+Append or update a method of a dictionary
+```python
+bank['type'] = 'check'
+```
+
 
 
 ## <a name='comments'>Comments</a>
